@@ -1,9 +1,11 @@
 /*
-Imprimir los números entre el 5 y el 20, saltando de tres en tres.
+Escribe un programa que muestre la sumatoria de todos los números entre el 0 y el 100.
 */
-function deTresEnTres(){
-    for (let vuelta = 5; vuelta<=20; vuelta+=3){
-        console.log(vuelta);
+function Sumatoria(){
+    let suma = 0;
+    for (let vuelta = 0; vuelta<=100; vuelta++){
+        suma = suma + vuelta;
     };
+    console.log(`La suma de los primeros 100 números naturales es : ${suma}`);
 };
-deTresEnTres();
+Sumatoria();
